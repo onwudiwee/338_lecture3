@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wanderlines — Lecture 2 Starter</title>
+  <!-- Link the reset and style .css files -->
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       LARGE STICKY HEADER
+       Required: must remain visible while the user scrolls.
+       ============================================================ -->
+  <header>
+    <div class="brand">
+      <h1>Wanderlines</h1>
+      <p class="tagline">A travel blog about how you get there.</p>
+    </div>
+    <nav>
+      <a href="#gallery-grid">Grid Gallery</a>
+      <a href="#gallery-flex">Flex Gallery</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         SECTION 1 — Photo gallery, styled with display: grid + minmax()
+         At least 10 cards. Each card = image + heading + description.
+         ============================================================ -->
+    <section id="grid-gallery">
+      <header>
+        <h2>Ireland — Grid Gallery</h2>
+        <p>Style this <code>.grid</code> with <strong>display: grid</strong> and
+        <code>repeat(auto-fill, minmax(220px, 1fr))</code> in styles.css.</p>
+      </header>
+
+      <div class="grid">
+        <figure>
+          <img src="images/IMG_0218.jpg"
+               alt="REPLACE: specific description of what the photo shows">
+          <figcaption>Christ Church Cathedral</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/IMG_0220.jpg"
+               alt="REPLACE: specific description">
+          <figcaption>Medieval Dublin Castle</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/IMG_0244.jpg"
+               alt="REPLACE: specific description">
+          <figcaption>Parliament Street</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/IMG_0255.jpg"
+               alt="REPLACE: specific description">
+          <figcaption>Grand Canal Greenway</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/IMG_0256.jpg"
+               alt="Nkwa's Lunch">
+          <figcaption>One Kinda Folk</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/IMG_0257.jpg"
+               alt="REPLACE: specific description">
+          <figcaption>Aras an Uachtaran</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/IMG_0276.jpg"
+               alt="REPLACE: specific description">
+          <figcaption>Guinness Storehouse</figcaption>
+        </figure>
+
+        <figure>
+          <img src="Images/IMG_0282.JPG"
+               alt="REPLACE: specific description">
+          <figcaption>Collins Baracks Museum</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/IMG_0296.jpg"
+               alt="REPLACE: specific description">
+          <figcaption>The Temple Bar</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/IMG_0309.jpg"
+               alt="REPLACE: specific description">
+          <figcaption>"Heineken" at O'Connell Bridge House</figcaption>
+        </figure>
+
+     
+      </div>
+    </section>
+
+
+    <section id="about">
+      <h2>About this site</h2>
+      <p>This is a class assignment. Replace this paragraph with a short blurb
+      about your trip and what kind of accessibility considerations you put into
+      the design.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Colleen van Lent; Built for Accessible Web Design Lecture 2</p>
+  </footer>
+
+</body>
+</html>
